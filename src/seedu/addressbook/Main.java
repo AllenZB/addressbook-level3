@@ -19,9 +19,15 @@ public class Main extends Application implements Stoppable{
     private Gui gui;
 
     @Override
+<<<<<<< HEAD
     public void start(Stage PrimaryStage) throws Exception{
         gui = new Gui(new Logic(), VERSION);
         gui.start(PrimaryStage, this);
+=======
+    public void start(Stage PrimaryStage) throws Exception{
+        gui = new Gui(new Logic(), VERSION);
+        gui.start(PrimaryStage, this);
+>>>>>>> feature1
     }
 
     @Override
